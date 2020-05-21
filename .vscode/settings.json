@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "cstdio": "c",
+        "stm32f4xx_hal.h": "c",
+        "stm32f4xx_hal_gpio.h": "c",
+        "stm32f4xx_hal_conf.h": "c",
+        "algorithm": "c",
+        "xhash": "c",
+        "xutility": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}
