@@ -10,7 +10,7 @@
 #include "key.h"
 #include "oled.h"
 #include "adm_public.h"
-
+#include "lcd.h"
 static u16 task_cnt = 0;
 
 void TASK_SchTable(){
@@ -48,4 +48,5 @@ void TASK_Init(){
     OLED_Init();
     Test_Init();
     ADM_Init();
+    LCD_Init();
 }

@@ -84,6 +84,7 @@ bsw/ECUcal/adm/adm.c \
 app/test/test.c \
 app/key/key.c \
 app/oled/oled.c \
+app/lcd/lcd.c \
 
 # ASM sources
 ASM_SOURCES =  \
@@ -154,6 +155,7 @@ C_INCLUDES =  \
 -Iapp/key \
 -Iapp/oled \
 -Ibsw/ECUcal/adm \
+-Iapp/lcd \
 
 # compile gcc flags
 ASFLAGS = $(MCU) $(AS_DEFS) $(AS_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections

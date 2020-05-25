@@ -1,5 +1,6 @@
 {
     "files.associations": {
+        "*.h": "c",
         "stdio.h": "c",
         "cstdio": "c",
         "stm32f4xx_hal.h": "c",
@@ -7,7 +8,8 @@
         "stm32f4xx_hal_conf.h": "c",
         "algorithm": "c",
         "xhash": "c",
-        "xutility": "c"
+        "xutility": "c",
+        "FONT.H": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
